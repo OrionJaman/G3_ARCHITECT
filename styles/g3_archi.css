@@ -176,12 +176,15 @@ main > section{
   .sponsor-companies img{
     filter:grayscale(100%);
   }
-  footer{
-    margin:130px 240px;
+footer {
+    width:100%;
     background-color: #FFF4E7;
-    justify-items: center;
-    padding:30px 350px;
-  }
+    margin:130px auto;
+    text-align: center;
+    padding: 39px .1vw;
+    
+}
+ 
   /* responsive */
 @media screen and (max-width:576px){
   .navbar,.nav-links,.teams,.features{
